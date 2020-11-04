@@ -18,12 +18,25 @@
 .main-menu_list{
     width: 70%;
     display: flex;
+    
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: baseline;
 
 }
 
 .main-menu_list li {
+    display: inline-block;
     list-style: none;
+    text-align: center;
+    border: 1px solid rgb(156, 82, 134);
+    margin: 7px;
+    padding: 9px;
+    border-radius: 8px;
+    background: rgb(156, 82, 134);
+    color: white;
+    width: 20%;
+    min-width: 80px;
 
 }
 
@@ -32,7 +45,7 @@
     height: 640px;
     background-image: url("images/fondo_dulces.jpg");
     background-size: cover;
-    background-position: 0% 40%;
+    background-position: 14% 40%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -98,19 +111,21 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     flex: 1 1 320px;
 }
 
 .images img{
 
     width: 25%;
+    min-width: 120px;
     margin: 10px;
 
 }
 
 .contact {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background: rgb(242, 190, 244);
@@ -120,17 +135,21 @@
 .contact h2 {
     color: white;
     font-family: "grandstander";
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  
 }
 
 .icons {
     width: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main-socialmedia__item {
 
-    width: 40px;
+    width: 30px;
 }
 
 
