@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 .nav-bar-1{
@@ -75,6 +76,7 @@
 
 .main-menu_list a:hover{
     color: rgb(156, 82, 134);
+    cursor: pointer;
 }
 
 @media (max-width: 768px){
@@ -106,8 +108,9 @@
 }
 
 .main-menu_icon {
-    width: 100px;
-    padding: 20px;
+    width: 70px;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 .portada {
@@ -138,21 +141,30 @@
 
 }
 
-.portada-bienvenida_contact-buttom{
-    display: inline-block;
-    background: rgb(156, 82, 134);
+
+.portada-bienvenida_contact-buttom a{
+    display: block;
     color: white;
-    border-radius: 20px;
+    font-size: 1.3rem;
+    text-decoration: none;
     width: 20%;
     min-width: 170px;
     text-align: center;
-    border: 2px solid rgb(156, 82, 134);
+   
+    background: rgb(156, 82, 134);
+    border-radius: 20px;
+    padding: 20px;
     
 }
 
-.portada-bienvenida_contact-buttom:hover{
-    background: none;
-    color: rgb(156, 82, 134);
+
+.portada-bienvenida_contact-buttom a:hover{
+    background: rgba(156, 82, 134, .4);
+    color: rgba(255,255,255, .8);
+    cursor: pointer;
+    transition: .3s;
+
+   
     
 }
 
@@ -167,8 +179,8 @@
     width: 40%;
     margin: auto;
     flex: 1 1 320px;
-    padding: 70px;
-    text-align: justify;
+    padding: 20px;
+    text-align: center;
 }
 
 .about-me_parrafo h1{
