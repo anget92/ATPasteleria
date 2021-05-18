@@ -1,0 +1,217 @@
+*{
+    font-family: "Epilogue", "sans-serif";
+
+}
+
+.nav-bar{
+    width: 100vw;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: -10px 5px 5px rgba(0,0,0, 0.2);
+}    
+
+.nav-bar-1{
+    width: 80%;
+
+}
+
+#btn-menu{
+    display: none;
+}
+
+.nav-bar label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+.nav-bar label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.image-menu{
+    width: 30px;
+    height: 30px;
+
+}
+
+.main-menu{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-menu_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+   
+}
+.main-menu_list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-menu_list li {
+    
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.main-menu_list a:hover{
+    color: rgb(156, 82, 134);
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .nav-bar label {
+        display: block;
+}
+    .main-menu{
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.4s;
+
+}
+    .main-menu_list {
+        flex-direction: column;
+        align-items: flex-start;
+       
+}
+   
+    #btn-menu:checked ~ .main-menu{
+        margin-left: 0;
+        margin-top: 50px;
+
+}
+}
+
+.main-menu_icon {
+    width: 70px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 360px;
+    padding-top: 100px;
+    
+    
+   
+}
+
+.tortas {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.name_tortas{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 139, 175);
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.tortas img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.precio_tortas{
+   
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+
+.tortas a{
+    display: block;
+    width: 90%;
+    background-color: rgb(18, 139, 175);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid 1px rgb(18, 139, 175);
+}
+
+.tortas a:hover{
+    color:  rgb(18, 139, 175);
+    background-color: transparent;
+    border: solid 1px rgb(18, 139, 175);
+    transition: 0.5s;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    height: 400px;
+}
+
+.contact h2 {
+    color: white;
+    font-family: "grandstander";
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  
+}
+
+.icons {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-socialmedia__item {
+
+    width: 30px;
+}
+
+
+
+.pie {
+    color: white;
+    background: rgb(65, 60, 63);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
