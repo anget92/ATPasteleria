@@ -135,7 +135,7 @@
 }
 
 .name_tortas{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: CaviarDreams;
     color: rgb(18, 139, 175);
     font-size: 17px;
     font-weight: bold;
@@ -168,6 +168,7 @@
     text-decoration: none;
     border-radius: 20px;
     border: solid 1px rgb(18, 139, 175);
+    
 }
 
 .tortas a:hover{
