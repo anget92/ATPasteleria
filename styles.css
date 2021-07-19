@@ -248,3 +248,9 @@
     align-items: center;
 
 }
+
+.pie h2{
+
+    font-size: 1em;
+    font-weight: 500;
+}
