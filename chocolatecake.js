@@ -1,4 +1,4 @@
-let images=["AT-tienda-img/Cake-choco.jpeg", "AT-tienda-img/cake-chocolate.jpeg", "AT-tienda-img/Choco_butter.jpg"]
+let images=["AT-tienda-img/Cake-choco.jpeg", "AT-tienda-img/cake-chocolate.jpeg", "AT-tienda-img/Choco_butter.jpg", "AT-tienda-img/chocolatecakeportada.jpeg"]
 
 let slider=document.querySelector("#slides-js");
 
